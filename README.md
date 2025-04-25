@@ -5,11 +5,18 @@ This project uses real-world customer churn data to predict customer attrition u
 ---
 
 ## 📁 Project Structure
-- `data/`: Raw dataset and dataset description
-- `scripts/`: R script performing data cleaning, model training, evaluation, and visualization
-- `docs/`: Final analysis output in PDF format
-- `customer-churn.Rproj`: RStudio project file for navigation
-
+```
+customer-churn-analytics/
+├── data/
+│   ├── customer_churn_dataset.csv
+│   └── customer_churn_dataset_description.docx
+├── docs/
+│   └── customer-churn-output.pdf
+├── scripts/
+│   └── customer-churn.R
+├── customer-churn.Rproj
+└── README.md
+```
 ---
 
 ## 🚀 What I Did
@@ -22,10 +29,10 @@ This project uses real-world customer churn data to predict customer attrition u
 
 ---
 
-## 📊 Key Results
-- Decision Tree Accuracy: **79.3%**
-- Random Forest Accuracy: **82%**
-- Top churn drivers: `Monthly Charges`, `Total Charges`, `Term`, `Agreement Period`
+## 📄 Outputs
+
+- Final write-up: `docs/customer-churn-output.pdf`
+- All analysis code: `scripts/customer-churn.R`
 
 ---
 
@@ -45,7 +52,7 @@ This project uses real-world customer churn data to predict customer attrition u
 
 ---
 
-## 📈 How to Reproduce
+## 📈 How to Run the Code
 1. Clone or download the repository
 2. Open `customer-churn.Rproj` in RStudio
 3. Open the script inside `scripts/`
@@ -54,6 +61,7 @@ This project uses real-world customer churn data to predict customer attrition u
 
 ---
 
-## 📬 Contact
-Created by **Thuy Chinh Van Nguyen**  
-For questions or collaborations, feel free to connect!
+**Author:** Thuy Nguyen  
+**Term:** Fall 2024  
+**Project Type:** Individual school project (DePaul University)  
+**Tools:** R
